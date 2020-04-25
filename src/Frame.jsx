@@ -30,7 +30,7 @@ export default class Frame extends Component {
     contentDidMount: () => {},
     contentDidUpdate: () => {},
     initialContent:
-      '<!DOCTYPE html><html><head></head><body><div class="frame-root"></div></body></html>'
+      '<!DOCTYPE html><html><head></head><body id="tree_style_tab_body"><div class="frame-root"></div></body></html>'
   };
 
   constructor(props, context) {
